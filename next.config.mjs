@@ -9,6 +9,10 @@ const nextConfig = {
             {
                 protocol: 'https',
                 hostname: 'rickandmortyapi.com'
+            },
+            {
+                protocol: 'https',
+                hostname: 'pokeapi.co'
             }
         ]
     }

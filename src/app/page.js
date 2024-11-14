@@ -47,6 +47,20 @@ export default async function Home() {
                     </li>
                 </ul>
             </div>
+            <div>
+                <h3 className='text-2xl'>EJEMPLO 4</h3>
+                <ul>
+                    <li>
+                        <Link href="/csr/ejemplo4.html" className="text-blue-500 hover:underline">CSR Javascript</Link>
+                    </li>
+                    <li>
+                        <Link href="/csr/ejemplo4" className="text-blue-500 hover:underline">CSR React</Link>
+                    </li>
+                    <li>
+                        <Link href="/ssr/ejemplo4" className="text-blue-500 hover:underline">SSR Next</Link>
+                    </li>
+                </ul>
+            </div>
         </main>
     )
 }
